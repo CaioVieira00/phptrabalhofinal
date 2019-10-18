@@ -23,11 +23,12 @@ function checkRequest() {
 	    break;
 	}
 	return $answer;
-}
+} 
+
+$answer = checkRequest();
 
 $request = $_SERVER['REQUEST_URI']; // IDENTIFICA A URI DA REQUISIÇÃO
 
-$answer = checkRequest();
 
 switch ($request) {
     case '/'.PASTAPROJETO.'/' :
