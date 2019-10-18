@@ -18,7 +18,7 @@
 --
 -- Table structure for table `conteudo`
 --
-DROP DATABASE IF EXISTS `aula`
+DROP DATABASE IF EXISTS `aula`;
 CREATE DATABASE  `aula`;
 USE `aula`;
 
